@@ -469,7 +469,7 @@ client.on('message', message => {
 
                     client.on('message', message => {
                                 if(!message.channel.guild) return;
-                        if (message.content.startsWith('!ping')) {
+                        if (message.content.startsWith('+ping')) {
                             if(!message.channel.guild) return;
                             var msg = `${Date.now() - message.createdTimestamp}`
                             var api = `${Math.round(client.ping)}`
@@ -810,7 +810,7 @@ client.on("message", message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '+support') {
-      message.author.send(' |https://discord.gg/vPthpK| لـ أي استفسار').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/aPNsVK4| لـ أي استفسار').catch(e => console.log(e.stack));
 
     }
    } 
