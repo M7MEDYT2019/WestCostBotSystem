@@ -1245,6 +1245,8 @@ client.channels.find('id', '486969675872206880').setName(`『 التاريخ ↩
 });
 
 
+
+
  client.on('guildMemberAdd', member => {
   member.addRole('name', "『✖̶̲мємвєя✖』")
 });
@@ -1267,5 +1269,7 @@ client.on('message', message => {
   }
 });
   
+
+
 
 client.login(process.env.BOT_TOKEN);
