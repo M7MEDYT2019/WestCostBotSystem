@@ -1270,7 +1270,7 @@ client.on("ready", () => {
             name : "Voice Online : [" + ss+ "]"
         })
     });
-    client.user.setGame("WestCostBoT", "https://twitch.tv/©");
+    client.user.setGame("WestCostBoT +help شكرا ", "https://twitch.tv/©");
 });
 
 
