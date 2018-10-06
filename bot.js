@@ -1131,29 +1131,6 @@ client.channels.find('id', '486969675872206880').setName(`『 التاريخ ↩
 
 var ss = 0;
  
-client.on('voiceStateUpdate', (o,n) => {
-    if (o.voiceChannel && !n.voiceChannel) {
-        ss-=1
-        n.guild.channels.get("495599835630534658").edit({
-            name : "Voice Online : [" + ss+ "]"
-        })
-    };
-    if (n.voiceChannel && !o.voiceChannel) {
-        ss+=1
-        n.guild.channels.get("495599835630534658").edit({
-            name : "Voice Online : [" + ss+ "]"
-        })
-    }
-})
-client.on("ready", () => {
-    client.guilds.get("455197670169116682").members.forEach(m => {
-        if (m.voiceChannel) {
-            ss+=1
-        };
-        client.channels.get("495599835630534658").edit({
-            name : "Voice Online : [" + ss+ "]"
-        })
-    });
 
 
 
