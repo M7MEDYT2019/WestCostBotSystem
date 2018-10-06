@@ -808,7 +808,7 @@ vv.on("collect", r => {
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/api/oauth2/authorize?client_id=486971602924339208&permissions=8&scope=bot')
 .setDescription(`**' WestCostBot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
- \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/QfB8p2S  :rose:  \n وشكرا لكم :lizard: **`)
+ \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/Ggh32w  :rose:  \n وشكرا لكم :lizard: **`)
 
 
  .setTimestamp()
