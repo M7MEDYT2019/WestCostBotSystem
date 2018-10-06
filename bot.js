@@ -1130,7 +1130,6 @@ client.login(process.env.BOT_TOKEN);
 
 client.channels.find('id', '486969675872206880').setName(`『 التاريخ ↩ ${Year}-${Month}-${day} 』`)
 }, 5000); 
-
 });
 
 
