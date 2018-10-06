@@ -1070,7 +1070,6 @@ client.on("message", message => { // Leaked by [ @!WC 1K⚔M7MEDYT#1640 ]
     let muterole = message.guild.roles.find(`name`, "Muted");
     if(!muterole){
       try{
-        muterole = await message.guild.createRole({
           name: "Muted",
           color: "#000000",
           permissions:[]
