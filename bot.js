@@ -1129,8 +1129,7 @@ client.channels.find('id', '486969675872206880').setName(`『 التاريخ ↩
 }, 5000); 
 
 
-var ss = 0;
- 
+
 
 
 
