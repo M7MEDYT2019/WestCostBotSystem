@@ -1071,7 +1071,6 @@ client.on("message", message => { // Leaked by [ @!WC 1K⚔M7MEDYT#1640 ]
     if(!muterole){
       try{
           name: "Muted",
-          color: "#000000",
           permissions:[]
         })
         message.guild.channels.forEach(async (channel, id) => {
