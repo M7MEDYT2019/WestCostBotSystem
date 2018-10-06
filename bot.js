@@ -1114,6 +1114,8 @@ message.react("❌")
 });
 
 
+
+
 client.on("message", (message) => {
     if (message.content.startsWith('$rem')) {
         if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
@@ -1125,8 +1127,22 @@ client.on("message", (message) => {
     }
 });
 
+
+
+
+
+
+
+
 client.channels.find('id', '486969675872206880').setName(`『 التاريخ ↩ ${Year}-${Month}-${day} 』`)
 }, 5000); 
+
+
+
+
+
+
+
 
 
 
